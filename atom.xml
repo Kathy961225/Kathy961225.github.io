@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-17T06:11:07.054Z</updated>
+  <updated>2020-05-20T18:07:49.988Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello New York</title>
+    <link href="http://yoursite.com/2020/05/20/hello-NY/"/>
+    <id>http://yoursite.com/2020/05/20/hello-NY/</id>
+    <published>2020-05-20T18:07:49.988Z</published>
+    <updated>2020-05-20T18:07:49.988Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hi"><a href="#Hi" class="headerlink" title="Hi~"></a>Hi~</h3><p>You become responsible, forever, for what you have tamed.</p><p><img src="/images/NYC2.JPG" alt><br><img src="/images/NYC1.JPG" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Hi&quot;&gt;&lt;a href=&quot;#Hi&quot; class=&quot;headerlink&quot; title=&quot;Hi~&quot;&gt;&lt;/a&gt;Hi~&lt;/h3&gt;&lt;p&gt;You become responsible, forever, for what you have tamed.&lt;/p&gt;
+&lt;p&gt;&lt;im
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

@@ -6,7 +6,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-     Mengqi Wu
+    Hello New York |  Mengqi Wu
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -43,53 +43,17 @@ ga('send', 'pageview');
 <body>
   <div id="app">
     <main class="content">
-      
-<section class="cover">
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/myCover.JPG" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">Mengqi Wu</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-
-<div id="main">
-  <section class="outer">
-  <article class="articles">
-    
-    
-    
-    
-    <article id="post-hello-NY" class="article article-type-post" itemscope
+      <section class="outer">
+  <article id="post-hello-NY" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
     
     <header class="article-header">
        
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/05/20/hello-NY/"
-    >Hello New York</a
-  >
-</h2>
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Hello New York
+</h1>
   
 
     </header>
@@ -104,6 +68,14 @@ ga('send', 'pageview');
       
     </div>
     
+
+    
+    
+    <div class="tocbot"></div>
+
+
+
+
 
     
 
@@ -133,82 +105,28 @@ ga('send', 'pageview');
   </div>
 
   
+  
+  <nav class="article-nav">
+    
+    
+      <a href="/2020/03/16/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">next post</strong>
+        <div class="article-nav-title">Hello World</div>
+      </a>
+    
+  </nav>
+
 
   
 
   
 
-</article>
-    
-    <article id="post-hello-world" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/03/16/hello-world/"
-    >Hello World</a
-  >
-</h2>
   
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2020/03/16/hello-world/" class="article-date">
-  <time datetime="2020-03-16T04:22:26.489Z" itemprop="datePublished">2020-03-16</time>
-</a>
-      
-      
-    </div>
-    
-
-    
-
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <h3 id="Hi"><a href="#Hi" class="headerlink" title="Hi~"></a>Hi~</h3><p>If we want more roses, we must plant more roses.</p>
-<p><img src="/images/post1.JPG" alt></p>
-
-      
-      <!-- reward -->
-      
-    </div>
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
-      
-
-    </footer>
-
-  </div>
-
   
-
-  
-
   
 
 </article>
-    
-  </article>
-  
-
-  
 </section>
-</div>
-
       <footer class="footer">
   <div class="outer">
     <ul class="list-inline">
@@ -360,6 +278,30 @@ ga('send', 'pageview');
 </script>
 
 
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: 'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    onClick: (e) => {
+      $('.toc-link').removeClass('is-active-link');
+      $(`a[href=${e.target.hash}]`).addClass('is-active-link');
+      $(e.target.hash).scrollIntoView();
+      return false;
+    }
+  });
+</script>
 
 
 
