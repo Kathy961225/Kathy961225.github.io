@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>
+    Projects |  Mengqi Wu
+  </title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  
+<link rel="stylesheet" href="/css/main.css">
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+  
+  
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-160834571-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
+  
+
+<link rel="alternate" href="/atom.xml" title="Mengqi Wu" type="application/atom+xml">
+</head>
+
+</html>
+
+<body>
+  <div id="app">
+    <main class="content">
+      <section class="outer">
+  <article id="page-" class="article article-type-page" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Projects
+</h1>
+  
+
+    </header>
+    
+
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h3 id="Gearbox-A-Hierarchical-Packet-Scheduler-for-Efficient-Network-Bandwidth-Allocation"><a href="#Gearbox-A-Hierarchical-Packet-Scheduler-for-Efficient-Network-Bandwidth-Allocation" class="headerlink" title="Gearbox: A Hierarchical Packet Scheduler for Efficient Network Bandwidth Allocation"></a>Gearbox: A Hierarchical Packet Scheduler for Efficient Network Bandwidth Allocation</h3><h4 id="Dec-2019-May-2020"><a href="#Dec-2019-May-2020" class="headerlink" title="Dec. 2019 ~ May 2020"></a><em>Dec. 2019 ~ May 2020</em></h4><ul>
+<li>Proposed a flexible and lightweight scheduler for network bandwidth allocation to approximate the ideal Weighted Fair Queuing(WFQ)</li>
+<li>Implemented the hierarchical scheduler with C++</li>
+<li>Applied NS2 and FCT topology to conduct the simulation</li>
+<li>Carried out the evaluation and visualized data with the tools of Pandas, NumPy, Matplotlib</li>
+</ul>
+<h3 id="Spam-Email-Tagging-System-Using-Cloud"><a href="#Spam-Email-Tagging-System-Using-Cloud" class="headerlink" title="Spam Email Tagging System Using Cloud"></a>Spam Email Tagging System Using Cloud</h3><h4 id="May-2020"><a href="#May-2020" class="headerlink" title="May 2020"></a><em>May 2020</em></h4><ul>
+<li>Implemented a Machine Learning model for predicting spam SMS message on AWS cloud service</li>
+<li>Built and trained a spam filter machine learning model using XGBoost with Amazon SageMaker instance and deployed the model to an endpoint</li>
+<li>Created Lambda function to trigger the filter when any new email file came</li>
+<li>Formulated an AWS CloudFormation template for the system to represent all the infrastructures</li>
+<li>Github: (<a href="https://github.com/Kathy961225/CloudComputingSpring2020-HW4" target="_blank" rel="noopener">https://github.com/Kathy961225/CloudComputingSpring2020-HW4</a>)</li>
+</ul>
+<h3 id="COVID-19-Data-Analysis"><a href="#COVID-19-Data-Analysis" class="headerlink" title="COVID-19 Data Analysis"></a>COVID-19 Data Analysis</h3><h4 id="May-2020-1"><a href="#May-2020-1" class="headerlink" title="May 2020"></a><em>May 2020</em></h4><ul>
+<li>Retrieved datasets from several sources to dig some useful information relating to COVID-19 with big data theory</li>
+<li>Investigated on research paper analysis with Pyspark tool to figure out which kinds of people are at the highest risk getting infected</li>
+<li>Implemented pandemic trend prediction with Pyspark ML library to forecast with the historical data</li>
+<li>Establised the relationship between COVID-19 and age, gender, weather, certain regions, social health condition, community mobility, using Pyspark dataframe and Pyspark SQL</li>
+</ul>
+<h3 id="Voice-Controlled-Photo-Search"><a href="#Voice-Controlled-Photo-Search" class="headerlink" title="Voice Controlled Photo Search"></a>Voice Controlled Photo Search</h3><h4 id="Apr-2020"><a href="#Apr-2020" class="headerlink" title="Apr. 2020"></a><em>Apr. 2020</em></h4><ul>
+<li>Implemented a photo album web application which could be searched using natural language through both text and voice</li>
+<li>Used AWS S3 bucket to host the frontend and store the photos</li>
+<li>Applied Amazon Transcribe to transcribe speech to text for searching</li>
+<li>Created and trained Amazon Lex bot to handle the input queries</li>
+<li>Deployed the project via AWS CodePipeline and launched service within inside VPC to prevent unauthorized internet access</li>
+<li>Github: (<a href="https://github.com/Kathy961225/CloudComputingSpring2020-HW3" target="_blank" rel="noopener">https://github.com/Kathy961225/CloudComputingSpring2020-HW3</a>)</li>
+</ul>
+<h3 id="Smart-Door-Authentication-System"><a href="#Smart-Door-Authentication-System" class="headerlink" title="Smart Door Authentication System"></a>Smart Door Authentication System</h3><h4 id="Mar-2020-Apr-2020"><a href="#Mar-2020-Apr-2020" class="headerlink" title="Mar. 2020 ~ Apr. 2020"></a><em>Mar. 2020 ~ Apr. 2020</em></h4><ul>
+<li>Implemented a smart door authentication system, through which owner could give the access to visitors</li>
+<li>Use the Kinesis Video Stream and Kinesis Data Stream to process the vedio gathering by the camera</li>
+<li>Applied Rekognition tool to detect face</li>
+<li>Implemented Lambda function to process the queries and hook different compoents and used API Gateway to manage the API</li>
+<li>Github: (<a href="https://github.com/Kathy961225/CloudComputingSpring2020-HW2" target="_blank" rel="noopener">https://github.com/Kathy961225/CloudComputingSpring2020-HW2</a>)</li>
+</ul>
+<h3 id="Dining-Concierge-Chatbot"><a href="#Dining-Concierge-Chatbot" class="headerlink" title="Dining Concierge Chatbot"></a>Dining Concierge Chatbot</h3><h4 id="Feb-2020-Mar-2020"><a href="#Feb-2020-Mar-2020" class="headerlink" title="Feb. 2020 ~ Mar. 2020"></a><em>Feb. 2020 ~ Mar. 2020</em></h4><ul>
+<li><p>Implemented a serverless, microservice-driven web application with Natural Language Processing-powered application to book and search the restaurants’ information in Manhattan, NYC</p>
+</li>
+<li><p>Hosted the frontend in AWS S3 bucket and used API Gateway to manage the API</p>
+</li>
+<li><p>Fetched the restaurants’ data by Yelp API, stored the data in DynamoDB and indexed by AWS ElasticSearch Service to improve the search efficiency</p>
+</li>
+<li><p>Built the chatbot with Amazon Lex to generate intents and gather information from user side</p>
+</li>
+<li><p>Created Lambda functions triggered by CloudWatch to handle queries through SQS and sent reservastion results to user through SNS service.</p>
+</li>
+<li><p>Github: (<a href="https://github.com/Kathy961225/CloudComputingSpring2020" target="_blank" rel="noopener">https://github.com/Kathy961225/CloudComputingSpring2020</a>)</p>
+</li>
+<li><p>Vedio: (<a href="https://youtu.be/lEmKRVWnb6U" target="_blank" rel="noopener">https://youtu.be/lEmKRVWnb6U</a>)</p>
+</li>
+</ul>
+<h3 id="License-Plate-Recognition-System-Based-on-Deep-Learning"><a href="#License-Plate-Recognition-System-Based-on-Deep-Learning" class="headerlink" title="License Plate Recognition System Based on Deep Learning"></a>License Plate Recognition System Based on Deep Learning</h3><h4 id="Sept-2017-Dec-2017"><a href="#Sept-2017-Dec-2017" class="headerlink" title="Sept. 2017 ~ Dec. 2017"></a><em>Sept. 2017 ~ Dec. 2017</em></h4><ul>
+<li>Implemented a complete image content positioning and text recognition prototype system, which was specifically applied to the license plate automatic identification system</li>
+<li>Involved in 4 main modules including license plate detecting (OpenCV), license plate positioning (binarized image), character segmentation (image sliding windows and CNN) and Character recognition (Inception Net V3 module)</li>
+<li>Realized auto location and recognition of license plate through the combination of deep learning framework TensorFlow, the machine learning algorithm and the image recognition algorithm</li>
+<li>Achieved recognition accuracy of 80.0128%</li>
+</ul>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+  
+
+  
+
+  
+
+  
+
+</article>
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul class="list-inline">
+      <li>
+        &copy;
+        2020-2021
+        Mengqi Wu
+      </li>
+      <li>
+        
+        Powered by
+        
+        
+        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul class="list-inline">
+      <li>
+        
+        
+        <span>
+  <i>PV:<span id="busuanzi_value_page_pv"></span></i>
+  <i>UV:<span id="busuanzi_value_site_uv"></span></i>
+</span>
+        
+      </li>
+      
+      <li>
+        <!-- cnzz统计 -->
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="to_top">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+      </div>
+    </main>
+    <aside class="sidebar">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/sea.svg" alt="Mengqi Wu"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">Home</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">About</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/skills">Skills</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/education">Education</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/research">Research</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/experience">Experience</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/projects">Projects</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">Archives</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/share.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script>
+  try {
+    var typed = new Typed("#subtitle", {
+      strings: ['It&#39;s been really nice getting to know you!', '', ''],
+      startDelay: 0,
+      typeSpeed: 100,
+      loop: true,
+      backSpeed: 100,
+      showCursor: true
+    });
+  } catch (err) {
+  }
+
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/js/ayer.js"></script>
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script>
+
+
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
+
+    
+  </div>
+</body>
+
+</html>
